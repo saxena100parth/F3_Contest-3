@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(59, 76, 186, 0.426);
+  padding-top: 20vh;
+}
+.box {
+  background-color: white;
+  width: 400px;
+  /* temparery height */
+  height: 60vh;
+  margin: auto;
+  padding: 10px;
+}
+.heading {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+}
+.foam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foam input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 30px;
+}
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 12px 82px;
+  margin-bottom: 8px;
+}
+.error {
+  color: Blue;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.img {
+  width: 90px;
+  height: 90px;
+  margin-left: 140px;
+}
+.blue {
+  color: blue;
+  padding-bottom: 5px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.flex div {
+  padding-top: 10px;
+}
+.flex p {
+  padding-top: 8px;
+}
+.flex2 {
+  display: flex;
+
+  justify-content: center;
+}
+.btn2 {
+  background-color: blue;
+  color: white;
+  margin: 40px;
+  padding: 16px 42px;
+  width: 150px;
+  height: 50px;
+}
+.btn:hover {
+  background-color: #0d6efd;
+  cursor: pointer;
+}
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: blue;
+  text-decoration: solid;
+}
+
+#logoutButton {
+  background-color: blue;
+}
+
+#logoutButton:hover {
+  background-color: #0d6efd;
+  cursor: pointer;
+}
